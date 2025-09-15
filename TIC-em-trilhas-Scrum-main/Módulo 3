@@ -1,0 +1,41 @@
+A Daily é uma reunião curta (máximo 15 minutos) que deve acontecer diariamente. O objetivo dessa reunião é avaliar o progresso do trabalho, além de identificar qualquer impedimento que a equipe esteja tendo em relação às entregas. Para reduzir a complexidade e ajudar a criar o hábito, a sugestão é de que essa reunião aconteça sempre no mesmo horário e local. Durante a reunião, os membros da equipe devem responder à três perguntas básicas:
+
+O que eu fiz ontem que ajudou o Time de Desenvolvimento a atender a meta da Sprint?
+O que eu farei hoje para ajudar o Time de Desenvolvimento a atender a meta da Sprint?
+Eu vejo algum obstáculo que impeça a mim ou o Time de Desenvolvimento no atendimento da meta da Sprint?
+Essas perguntas ajudam a equipe a manter a visibilidade sobre o que está acontecendo, além de ajudar a identificar problemas e os ajustes que serão necessários no plano de trabalho da equipe.
+
+A reunião de revisão da Sprint é o penúltimo evento e ocorre ao final da Sprint. Ela tem por objetivo inspecionar qual foi o resultado da Sprint, por isso, nessa reunião o time Scrum apresenta o que foi feito para os clientes e como o trabalho da Sprint ajudou a equipe a chegar mais próximo ao software final. Assim, o progresso de todo o trabalho é discutido nessa reunião. Durante esse evento, com base nas informações compartilhadas,  é discutido o que fazer a seguir. 
+
+ 
+
+Essa reunião é uma ótima oportunidade para receber feedback do cliente, garantindo assim que o produto atenda suas necessidades e expectativas. Para uma Sprint de um mês, essa reunião não deve ultrapassar quatro horas.  O Backlog também pode ser ajustado com base no que for discutido nessa reunião.
+
+A reunião de retrospectiva da Sprint é uma oportunidade para o time Scrum rever suas práticas e planejar como aumentar sua qualidade e eficácia. Essa reunião deve sempre acontecer depois da reunião de revisão da Sprint e antes da reunião de planejamento da próxima Sprint. Nessa reunião o time Scrum avalia como foi a última Sprint considerando os indivíduos e suas interações e os processos e ferramentas utilizados.
+
+ Normalmente, o time Scrum discute quais foram os problemas encontrados na Sprint e como foram (ou não) resolvidos. Com base nisso, o time Scrum identifica as mudanças que são necessárias e tentam implementá-las o mais rápido possível.
+
+Questões que podem ser respondidas durante a reunião de Retrospectiva: 
+
+O que correu bem durante a Sprint?
+O que não correu tão bem?
+Quais melhorias podem ser implementadas na próxima Sprint?
+ 
+
+Essa reunião é a última da Sprint, assim, a reunião de retrospectiva conclui a Sprint. A indicação do guia Scrum é de que essa reunião dure no máximo três horas para uma Sprint de um mês e que seja mais curta para Sprints menores. O comum é que nessa reunião apenas participe o time Scrum e não conte com a participação dos clientes. Outro objetivo das reuniões do Scrum é fazer com que o time Scrum permaneça alinhado e engajado no projeto.
+
+ O Backlog do produto é uma lista de itens (ou funcionalidades) necessários para que o produto seja útil ao cliente. Ele é a fonte de trabalho do time Scrum e é revisado constantemente. 
+
+Na reunião de revisão da Sprint, é analisado se os itens do Backlog que foram selecionados para aquela Sprint foram atendidos com qualidade e na reunião de retrospectiva é discutido como se pode melhorar o trabalho nos próximos itens do backlog do produto. Esse trabalho de avaliar os itens do backlog do produto, analisar como dividi-los, sua ordem na lista, etc., é uma atividade contínua no Scrum.
+
+Mas como ordenar todas as funcionalidades de um produto em uma lista? A ordem dos itens do backlog são ordenados por valor e/ou urgência. Assim os itens mais importantes devem sempre estar no topo da lista.
+
+"A meta do produto descreve um estado futuro do produto que pode servir como um alvo para o time Scrum planejar”.
+
+Essa meta do produto está no backlog do produto e deve sempre ter um limite claro e usuários definidos. Podemos resumir a meta do produto como o objetivo a longo prazo do time Scrum.
+
+O backlog da Sprint pode ser descrito como a lista de itens que a equipe Scrum se compromete a entregar durante uma Sprint específica. Esse backlog é criado na Reunião de Planejamento da Sprint, já que é nessa reunião que o time seleciona quais serão os itens a serem trabalhos durante a Sprint.
+
+O backlog da Sprint é formado pela meta da Sprint, o conjunto de itens que serão trabalhados na Sprint, além de um plano de ação para a entrega dos itens. Considerando essa composição, podemos dizer que o backlog da Sprint é feito por e para o time de desenvolvimento.
+
+O trabalho do backlog da Sprint é monitorado nas Dailys e quando terminada a Sprint, os itens concluídos são considerados como parte do produto a ser entregue ao cliente. Caso haja itens que não foram concluídos durante a Sprint, esses podem ser concluídos na próxima Sprint ou incluídos de volta ao backlog do produto.

@@ -1,0 +1,34 @@
+Introdução ao Power Query
+
+
+Power Query é o que manda os dados para o Power BI, ou seja, embora façamos as importações através do Power BI, também poderíamos importar tabelas através do Power Query, onde os dados ficam guardados.
+
+Pode-se dizer que o Power Query é o motor do Power BI, e que o Power BI é a carroceria, o que se vê por fora.  Como já dissemos, o Power Query marca os dados com os quais trabalharemos no Power BI, e no próprio Power BI faremos gráficos e formataremos esses dados para conhecer as informações que mantemos em nossas tabelas.
+
+
+Para acessar a janela do Power Query, vamos à guia PÁGINA INICIAL do arquivo BD CURSOS do Power BI, e no grupo de botões CONSULTAS, clicamos diretamente no botão TRANSFORMAR DADOS:
+
+Na janela do Power Query, temos na parte superior a FAIXA DE OPÇÕES, com as guias: ARQUIVO, PÁGINA INICIAL, TRANSFORMAR, ADICIONAR COLUNA, EXIBIÇÃO, FERRAMENTAS E AJUDA.
+
+As guias sempre serão as mesmas e não mudarão nem aparecerão novas, como ocorre no Power BI conforme o elemento que temos selecionado.
+
+Cada guia tem seus grupos de botões. Abaixo das guias, temos a área de trabalho, que consta de três partes.
+
+Painel de consultas
+Onde se vão adicionando as tabelas que vamos importando do Power BI. Neste caso, temos a tabela T_CURSOS.
+
+ 
+
+ 
+
+Painel de conteúdo
+Onde nos mostra o conteúdo da tabela que temos selecionada no painel de consultas. Nele vemos tanto os campos quanto os registros desta:
+
+Vemos que, no cabeçalho de cada coluna, como à direita do nome do campo, temos o botão de filtro, e à esquerda, o botão do tipo de dados. Se olharmos para o campo CURSO, por exemplo, o botão ABCSOA_PBI_POR_img142.png indica que é um tipo de dado TEXTO. Se clicarmos sobre ele, nos mostra os diferentes tipos de dado que podem ser atribuídos a cada campo:
+
+Como dissemos no início, o tipo de dado é herdado do arquivo de origem do qual importamos a tabela. 
+
+Painel de etapas
+Localizado na parte direita da área de trabalho, nos mostra o nome da tabela selecionada. Daqui podemos mudar o nome da tabela. Abaixo, temos as etapas que aplicamos sobre a tabela. 
+
+Cada operação que fizermos no painel de conteúdo será adicionada ao painel de etapas. De tal forma que, no Power Query, não existe o botão desfazer; se fizermos uma etapa incorreta, teremos que eliminá-la no painel de etapas.

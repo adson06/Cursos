@@ -1,0 +1,73 @@
+Em primeiro lugar, é preciso destacar que o Query diferencia entre maiúsculas e minúsculas. Para que dois elementos sejam iguais, devem ter os mesmos caracteres e coincidir as maiúsculas e as minúsculas.
+
+
+Remover colunas
+Podemos remover em Query as colunas da tabela com as quais não vamos trabalhar no Power BI, para não carregá-las no Power BI e não tê-las no painel de dados de nenhuma vista.
+
+Para isso, selecionamos as colunas que serão removidas, neste caso: COMERCIAL, IMPORTE COMERCIAL e PAGAMENTO COMERCIAL, e, pressionando o botão direito sobre uma delas, selecionamos a opção REMOVER COLUNAS:
+
+
+
+É preciso destacar que o que fazemos no Power Query não afeta em nada o arquivo de origem do Excel.
+
+
+
+Copiar coluna
+Para isso, selecionamos a coluna que vamos copiar e, sobre ela, pressionamos o botão direito, selecionando a opção do menu emergente: DUPLICAR COLUNA.
+
+As colunas duplicadas vão sendo adicionadas a seguir da última coluna da tabela.
+
+Neste caso não vamos duplicar nenhuma coluna.
+
+
+
+Mudar o nome de uma etapa
+Podemos mudar o nome das etapas que considerarmos importantes no painel da etapas para poder identificá-las melhor. Para isso, nos colocamos sobre a etapa que vamos mudar o nome, vamos fazer isso na última etapa que temos (COLUNAS REMOVIDAS). Pressionamos o botão direito e, no menu que aparece, selecionamos a opção RENOMEAR:
+
+
+
+Copiar uma tabela
+No painel de consultas, nos colocamos sobre o nome da tabela que vamos copiar, neste caso só temos a tabela T_CURSOS. Pressionamos o botão direito e, sobre ela, selecionamos a opção de DUPLICAR:
+
+
+No painel de consultas, nos colocamos sobre a tabela que vamos excluir, pressionamos o botão direito e selecionamos a opção EXCLUIR:
+
+
+Mudar o nome de uma tabela
+No painel de conteúdo, nos colocamos sobre o título da coluna que vamos mudar o nome, e temos duas opções para mudá-lo:
+
+
+Mudar o nome de uma coluna
+No painel de conteúdo, nos colocamos sobre o título da coluna que vamos mudar o nome, e temos duas opções para mudá-lo:
+
+Dois cliques rápidos com o botão esquerdo sobre o nome da coluna e escrevemos o novo nome.
+Botão direito sobre o título da coluna que mudar de nome, e selecionamos a opção RENOMEAR:
+
+Remover linhas
+Não temos a opção de nos colocarmos sobre as linhas e pressionar o botão direito para remover. Se o que queremos é remover linhas, faremos isso através da ABA INÍCIO, no grupo de botões REDUZIR LINHAS, pressionando o botão REMOVER LINHAS:
+
+
+REMOVER LINHAS SUPERIORES: indicar o número de linhas superiores que queremos remover da tabela.
+REMOVER LINHAS INFERIORES: indicar o número de linhas inferiores que queremos remover da tabela.
+REMOVER LINHAS ALTERNADAS: indicar a partir de que linha queremos começar a eliminar, e indicar a cada quantas linhas eliminamos e a cada quantas conservamos linhas.
+REMOVER DUPLICADOS: elimina as linhas repetidas das colunas que temos selecionadas da tabela.
+REMOVER LINHAS EM BRANCO: elimina os dados vazios ou nulos das colunas que temos selecionadas da tabela.
+REMOVER ERROS: elimina os dados com erro das colunas que temos selecionadas da tabela.
+FILTRAR DADOS: através do botão de filtro da coluna que filtrar, procederemos a selecionar as opções que queremos filtrar.
+
+
+Devemos ter em conta que, se fizermos um filtro no Power Query, ao carregar os dados no Power BI só trabalharemos e faremos gráficos com os dados carregados, ou seja, os dados que se mostram no filtro.Por exemplo, vamos filtrar os cursos no turno de MANHÃ E TARDE. Vamos ao botão de filtro do campo TURNO DO CURSO e selecionamos ambos os elementos.
+
+Vemos como no painel de etapas terá sido adicionada a etapa LINHAS FILTRADAS.
+
+
+Importar dados desde Power Query
+Também podemos importar tabelas desde o editor de Power Query. Faríamos isso através da aba PÁGINA INICIAL no grupo de botões NOVA CONSULTA, selecionando NOVA FONTE: Nos mostra os mesmos conectores do Power BI selecionando no menu suspenso a opção MAIS…:
+
+
+
+Uma vez que realizamos todas as transformações, carregaremos os dados no Power BI. Para isso, vamos à guia PÁGINA INICIAL e pressionamos o botão FECHAR E APLICAR, sendo o primeiro botão dessa guia PÁGINA INICIAL.
+
+Automaticamente, os dados serão carregados no Power BI, as visualizações inseridas serão atualizadas com os dados mostrados e transformados no Power Query e, no painel de dados e vista de tabela, os campos eliminados não estarão mais presentes. As colunas adicionadas estarão disponíveis e as colunas transformadas terão as mudanças que configuramos.
+
+A forma de trabalho habitual é: primeiro importar os dados, depois transformá-los no Power Query e, finalmente, carregar no Power BI para começar a criar os relatórios sobre os dados transformados. Salvamos e fechamos o arquivo BD CURSOS.

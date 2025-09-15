@@ -1,0 +1,21 @@
+Gráficos de barras e colunas
+
+São gráficos que têm eixo vertical e eixo horizontal. Nos gráficos de barras, estas crescem sobre o eixo horizontal (X), por isso o campo a totalizar será colocado sobre esse eixo. No entanto, nos gráficos em colunas, estas crescem sobre o eixo vertical (Y), por isso o campo que totalizamos será colocado nesse eixo.
+
+ 
+
+
+Nestes gráficos, além do campo que totalizamos, temos os campos que agrupamos por seus elementos. O campo principal para agrupar irá sobre o eixo Y se o gráfico for de barras, e sobre o eixo X se o gráfico for de colunas.
+Também podemos segmentar por outro campo, que irá na área de LEGENDA.
+
+Os gráficos interagem com o resto dos relatórios da página, assim como também recebem filtros do resto das visualizações. Ao ter filtrado a página na segmentação por ESPANHA, o gráfico foi filtrado. Se selecionarmos, por exemplo, a série TARDE de Excel, também serão filtrados os gráficos da tela. Clicando novamente sobre essa série, removeremos o filtro.
+
+Gráfico circular
+Este tipo de gráfico é usado quando não precisamos de eixos, ou seja, quando só queremos ver a evolução dos elementos de um único campo.
+
+Algumas das propriedades de formato mais habituais dos gráficos são:
+
+COLUNAS/BARRAS: em função de se é um gráfico de colunas ou de barras, para configurar cada uma das séries do gráfico.
+SEGMENTOS: se o gráfico é circular, para configurar cada série deste.
+LEGENDA: para formatar, mover ou remover a legenda do gráfico.
+RÓTULOS DE DADOS: para mostrar e configurar os valores de cada uma das séries do gráfico.

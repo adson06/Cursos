@@ -1,0 +1,84 @@
+Scrum foi inspirado em uma analogia do rugby, onde eles comparam as equipes de desenvolvimento de produtos de alta performance a uma formação de scrum no rugby.
+
+No rugby o scrum é uma formação em que os jogadores de ambas equipes se juntam em um esforço coordenado para ganhar a posse da bola. A ideia é que, assim como no rugby, as equipes de desenvolvimento devem trabalhar de maneira coesa e integrada, avançando juntas em direção a um objetivo comum.
+
+Eles viram o "scrum" como uma representação adequada da necessidade de colaboração intensa e auto-organização dentro das equipes de desenvolvimento, onde todos os membros devem trabalhar em sincronia para alcançar o sucesso do projeto.
+
+o scrum pode ser definido como um framework leve que ajuda pessoas, times, organizações a gerar valor por meio de soluções adaptivas para  problemas complexos
+
+O Scrum é sustentado por três pilares fundamentais, que são essenciais para garantir a eficácia da metodologia. 
+
+transparência
+
+ significa que todos os aspectos significativos do processo devem ser visíveis e compreensíveis para todos os envolvidos no projeto. As atividades e resultados devem ser claros para todos os membros da equipe e para os stakeholders.
+
+Inspeção
+
+ Inspeção refere-se à necessidade de revisar regularmente os artefatos e o progresso do trabalho para identificar possíveis desvios ou problemas. Isso permite que a equipe detecte problemas cedo, antes que eles se tornem grandes obstáculos.
+
+Adaptação
+
+ Adaptação significa que, quando uma inspeção revela que um ou mais aspectos de um processo ou produto estão fora dos limites aceitáveis, o processo ou o material sendo produzido deve ser ajustado. A equipe deve estar disposta e ser capaz de fazer as mudanças necessárias para garantir que o projeto siga na direção certa.
+
+O Scrum divide o projeto em pequenos ciclos chamados “Sprints”. Cada sprint deve durar um período fixo, geralmente de duas a quatro semanas a depender do tamanho do projeto e da equipe. Durante a sprint, a equipe trabalha para completar algumas tarefas ou funcionalidades definidas. Assim, ao final de cada sprint a equipe consegue revisar e analisar o progresso do projeto, além de garantir feedback do cliente.
+
+Além das Sprints, o Scrum estabelece os papéis, os eventos e artefatos que ajudam a equipe em direção ao objetivo do projeto. Isso é inclusive o que torna o Scrum tão popular: cada equipe pode ajustá-lo de acordo com o projeto e suas necessidades.
+
+
+Flexibilidade: O Scrum permite à equipe adaptar-se rapidamente às mudanças nos requisitos do projeto.
+	Colaboração: O Scrum promove a comunicação e a colaboração entre todos os membros da equipe, além de também melhorar a comunicação entre a equipe e o cliente.
+
+
+Transparência: O Scrum torna visível o progresso do projeto para todos os envolvidos, garantindo assim que todos entendam o que já foi feito e o que ainda falta por fazer.
+ 
+
+Entrega contínua: O Scrum indica entregas de funcionalidades de forma incremental e frequente. Assim, o cliente sempre tem pedaços do software funcionando ao final de cada sprint e consegue também avaliar o progresso do projeto.
+ 
+
+Melhoria contínua: No Scrum, como o software é entregue em incrementos, a melhoria do processo pode ser realizada de forma contínua a partir dos feedbacks do cliente.
+	Aumento da satisfação do cliente: Como o cliente é muito envolvido no processo de desenvolvimento e recebe o software de forma mais rápida, isso leva à aumento da satisfação do cliente.
+
+
+Maior motivação da equipe: Como no Scrum a equipe trabalha de forma mais colaborativa e autônoma, isso leva à maior motivação da equipe.
+
+Dentro do Scrum, a equipe é chamada Time Scrum. O Scrum team deve ser uma equipe pequena, consistindo em um Scrum Master, um Product owner e Time de Desenvolvedores. Dentro de um Scrum Team, não há sub-times ou hierarquias e todos trabalham focando apenas em um objetivo: entregar o melhor produto possível.
+
+
+Os Scrum Teams são multifuncionais, ou seja, todos os membros possuem todas as habilidades necessárias para criar valor a cada Sprint. Além disso, o Scrum team internamente decide o que cada um faz, como faz e quando faz. Assim, além de multifuncionais o Scrum team é autogerenciável.
+
+ 
+
+O Scrum Team deve ser pequeno o suficiente para permanecer ágil e grande o suficiente para conseguir concluir o trabalho de uma Sprint. O indicado é que a equipe contenha no máximo 10 pessoas. Isso se deve ao fato de que, para os criadores do Scrum, times menores se comunicam melhor e são mais produtivos.
+
+ 
+
+O Scrum Team é responsável por todas as atividades, por exemplo, colaboração com o cliente, manutenção, pesquisa e desenvolvimento. Todo o Scrum team é o responsável pelo produto da sprint e a entrega de um produto útil ao cliente. Assim, cada um desempenha uma função para garantir o sucesso do projeto.
+
+O Scrum dos Scrums é uma técnica utilizada para escalar o Scrum em projetos maiores e mais complexos, que exigem a coordenação de múltiplas equipes Scrum. Quando um único time Scrum não é suficiente para lidar com o tamanho ou a complexidade de um projeto, várias equipes são formadas para trabalhar em diferentes partes do produto. O Scrum dos Scrums serve para garantir que essas equipes trabalhem de forma coordenada e alinhada, mantendo a visão global do projeto.
+
+Assim como no Scrum tradicional, o Scrum dos Scrums envolve reuniões regulares, conhecidas como "Scrum dos Scrums". Nessas reuniões, representantes de cada equipe Scrum se encontram para discutir o progresso, identificar impedimentos e alinhar os esforços entre as equipes.
+
+Essas reuniões podem ocorrer diariamente, semanalmente ou com outra frequência adequada ao projeto, dependendo da necessidade.
+A equipe de coordenação do Scrum dos Scrums geralmente é composta pelos Scrum Masters ou representantes das equipes Scrum. Esses representantes trazem informações sobre o progresso de suas respectivas equipes e compartilham desafios que precisam ser resolvidos coletivamente.
+
+O objetivo é manter todas as equipes sincronizadas e garantir que os trabalhos que dependem de múltiplas equipes estejam progredindo como esperado.
+
+O Scrum dos Scrums pode envolver um Backlog de Coordenação, que é uma lista de itens que afetam várias equipes e precisam ser gerenciados em conjunto. Esses itens podem incluir problemas de integração, dependências entre funcionalidades e outros aspectos que requerem a atenção de mais de uma equipe.
+
+Durante as reuniões do Scrum dos Scrums, esses itens são discutidos e priorizados, garantindo que o trabalho seja coordenado de forma eficaz.
+Um dos principais objetivos do Scrum dos Scrums é identificar impedimentos que podem afetar mais de uma equipe e resolver esses problemas de forma coordenada.
+
+Isso ajuda a evitar atrasos e a manter o fluxo de trabalho eficiente em todo o projeto.
+
+Quando Utilizar o Scrum dos Scrums?
+O Scrum dos Scrums é particularmente útil em projetos grandes e complexos, onde várias equipes Scrum precisam trabalhar juntas para entregar um único produto.
+
+O Scrum é uma ferramenta poderosa para gerenciar projetos complexos e entregar software de alta qualidade. O fato de ser um framework adaptável, ajuda as equipes a o adaptarem de acordo com suas necessidades. Os papéis bem definidos nas equipes também é um diferencial do Scrum. Ao adotar o Scrum, as equipes podem se tornar mais ágeis, flexíveis e capazes de responder às demandas do mercado de forma mais eficiente.
+
+Melhora a Comunicação: Facilita a troca de informações entre equipes, garantindo que todas estejam alinhadas e trabalhando em direção aos mesmos objetivos.
+
+Coordenar Dependências: Ajuda a gerenciar dependências entre diferentes equipes e funcionalidades, evitando bloqueios e garantindo a entrega contínua de valor.
+
+Escalabilidade: Permite que o Scrum seja aplicado em grandes projetos que envolvem muitas equipes, mantendo a agilidade e a flexibilidade características da metodologia.
+
+Visão Global: Mantém uma visão holística do projeto, garantindo que o produto final seja coeso e que todas as partes se integrem adequadamente.

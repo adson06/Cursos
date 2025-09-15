@@ -1,0 +1,61 @@
+Etapas iniciais
+
+
+Como podemos ver, ao acessar a Query com a tabela T_CURSOS carregada no Power BI, vemos que a tabela tem, por padrão, três ETAPAS APLICADAS no painel de etapas:
+
+
+
+Essas etapas são geradas automaticamente em qualquer tabela que tenhamos importado. A seguir, vamos ver cada um dos 3 passos (ETAPAS).
+
+ 
+
+Fonte
+Nesta etapa, está indicado o caminho do arquivo onde está guardada a tabela que inserimos, neste caso, o caminho da tabela T_CURSOS. Se clicarmos sobre essa etapa, o conteúdo mostrado é o seguinte:
+
+ 
+
+Onde nos mostra as folhas, tabelas e intervalos definidos no arquivo em que está guardada a tabela T_CURSOS, ou seja, o arquivo BD CURSOS.
+
+Sempre que estivermos posicionados em uma etapa, a barra de fórmulas, situada acima do painel de conteúdo, é ativada. Neste caso, estando na etapa Fonte, a barra de fórmulas mostra o caminho onde está o referido arquivo BD CURSOS:
+
+ 
+
+ 
+
+	
+Importante
+Power Query utiliza a linguagem de programação M, que é o que se expressa sobre essa barra de fórmulas. Em alguns casos podemos fazer mudanças de forma intuitiva, mas, por norma geral, é aconselhável que, se não soubermos a linguagem de programação M, não façamos uso dela.
+ 
+
+Quando nos posicionamos na etapa Fonte, vemos que à direita do nome da etapa há uma engrenagem: 
+
+Todas as etapas que têm essa engrenagem, ao clicar sobre ela, abre-se uma janela para que possamos mudar a configuração da referida etapa. Neste caso, a utilizaremos se mudarmos a tabela de arquivo, ou seja, se, por exemplo, retirarmos a tabela T_CURSOS do arquivo BD CURSOS para levá-la ao arquivo BD FATURAS, então teríamos que atualizar o caminho da tabela. Clicamos sobre essa engrenagem e nos mostra a janela:
+
+ 
+
+Clicando no botão PROCURAR, atualizamos o caminho, indo até a localização do arquivo e, finalmente, clicaríamos no botão OK. Portanto, esse passo é utilizado se mudarmos o caminho do arquivo em que temos guardada a tabela.
+
+ 
+
+Navegação
+Nesta etapa é onde selecionamos o nome da tabela que estamos importando do arquivo fonte. Esta etapa também tem a engrenagem à sua direita. Se a clicarmos, nos mostra os intervalos, folhas e tabelas do arquivo que importamos na etapa anterior. Desta forma, podemos mudar de tabela na importação. Se no arquivo do Excel modificarmos o nome da tabela, nesta etapa teremos que atualizá-lo.
+
+ 
+
+ 
+
+No painel de conteúdo da etapa nos mostra as colunas e linhas da tabela importada, mas sem atribuir o tipo de dado a cada coluna, pois, se observarmos o botão do tipo de dado de cada coluna, por exemplo, da coluna CURSO:SOA_PBI_POR_img152.png. Como foi atribuído um tipo de dado texto, no ícone está escrito ABC. Se tivesse atribuído número, estaria escrito 123.
+
+ 
+
+Tipo alterado
+É a etapa em que se atribui o tipo de dado a cada coluna. Se formos ao painel de conteúdo da etapa, vemos como em cada coluna há um único ícone à esquerda ddo nome com o tipo de dados da coluna.
+
+ 
+
+	
+Tenha em mente
+Em alguns casos, ao realizar uma etapa que gera uma coluna, Query insere uma etapa "tipo alterado". Sempre que a virmos, devemos examiná-la para ver em qual coluna ela está alterando o tipo de dados, e se o tipo de dados atribuído a ela corresponde ao tipo de dados com o qual queremos trabalhar nessa coluna.
+ 
+
+Para eliminar uma etapa, à esquerda de cada etapa temos o botão EXCLUIR. Por exemplo, se estivermos na etapa TIPO ALTERADO e clicarmos sobre esse ícone, excluiremos a etapa.

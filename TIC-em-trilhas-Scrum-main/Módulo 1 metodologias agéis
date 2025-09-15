@@ -1,0 +1,31 @@
+software são programas de computador e documentação associada a esses programas.
+
+Uma das primeiras metodologias criadas, indicava que o desenvolvimento de software deveria ocorrer de forma linear e sequencial. Cada fase (por exemplo, levantamento de requisitos, implementação, testes etc.) deveria ser rigidamente definida e concluída antes de passar para a próxima fase. Um dos problemas desse modelo é que em muitos casos os erros somente são encontrados ao fim do projeto.
+
+Essa metodologia combina elementos de metodologias anteriores, organizando todo o processo de desenvolvimento em um processo iterativo. Cada iteração (ou seja, cada ciclo), possui um conjunto de fases que se repetem até se chegar ao produto final. Assim, cada fase é “revisitada” várias vezes durante o processo.
+
+Assim, na década de 1990, surgiu o movimento de desenvolvimento ágil. Esse movimento veio como uma resposta a esses problemas, indicando que o desenvolvimento de software deveria ser flexível e com foco na colaboração e na entrega contínua. Além disso, esse movimento indicou que o foco da equipe deveria ser a satisfação do cliente e a entrega de um software em pouquíssimo tempo.
+
+Em todas as metodologias ágeis, o objetivo principal é o desenvolvimento de software de forma rápida, através de ciclos curtos e iterativos. Cada ciclo rápido de desenvolvimento gera pequenas partes do software, assim, o cliente tem acesso à pedaços de software funcionais com frequência. Isso também ajuda na rápida adaptação diante às mudanças nos requisitos e no ambiente de negócios, além de permitir que o cliente dê feedback com frequência, gerando um produto mais alinhado com suas expectativas. Para além do SCRUM que veremos a fundo durante a trilha, também podemos citar como metodologias ágeis:
+
+Kanban: o Kanban é uma metodologia que utiliza quadros (físicos ou digitais) para auxiliar as equipes a gerenciar o fluxo de trabalho. O quadro é dividido em colunas representando diferentes etapas do processo de desenvolvimento e as tarefas são movimentadas através das colunas (como por exemplo: "A Fazer", "Em Progresso", "Concluído"). Isso permite que toda a equipe tenha uma visualização clara do andamento de cada parte do projeto.
+
+XP (Extreme Programming): É uma metodologia ágil de desenvolvimento de software que enfatiza a melhoria contínua, a flexibilidade e a entrega rápida de software de alta qualidade. Criado por Kent Beck na década de 1990, o XP é conhecido por levar ao "extremo" várias práticas já existentes em desenvolvimento de software, com o objetivo de aumentar a produtividade e melhorar a qualidade do software entregue.
+O Extreme Programming é especialmente útil em projetos que:
+
+Exigem alta qualidade de software com entregas rápidas e frequentes.
+Precisam de flexibilidade para mudanças constantes nos requisitos.
+Beneficiam de uma comunicação intensa e contínua com o cliente.
+Envolvem equipes que podem trabalhar em estreita colaboração.
+
+Feature-Driven Development (FDD): FDD é uma metodologia ágil orientada à funcionalidades (features). Nessa metodologia, todo o ciclo de desenvolvimento é organizado em torno de uma lista de funcionalidades que o sistema deve ter.
+O FDD é particularmente útil em projetos que:
+
+Envolvem sistemas complexos com muitas funcionalidades inter-relacionadas.
+Exigem entregas frequentes e incrementais de software funcional.
+Beneficiam de uma abordagem orientada a funcionalidades, onde cada pequena parte do sistema agrega valor ao cliente.
+Contam com equipes que têm papéis especializados e bem definidos.
+
+o Manifesto ágil é um documento que foi criado por 17 profissionais da área de desenvolvimento de software, como uma resposta direta às frustrações com os métodos tradicionais de desenvolvimento. O manifesto é assim, um chamado à mudança.  Ele fornece uma base comum para todas as metodologias ágeis, destacando os valores e princípios que deveriam guiar o desenvolvimento de software de maneira mais eficiente e eficaz.
+
+É inquestionável que a equipe direcionada para o jogo era muito pequena. Mas, pensando no prazo que a empresa tinha, uma boa possibilidade seria a utilização de alguma metodologia de desenvolvimento ágil. O projeto poderia ser dividido em Sprints (ciclos rápidos, veremos o que é isso no próximo módulo!) de no máximo 2 semanas, levando o projeto a ter três ciclos. A utilização de uma metodologia ágil permitiria uma adaptação mais rápida a mudanças indicadas pelos clientes durante os feedbacks, sem comprometer significativamente o cronograma. Cada ciclo poderia ter como entrega uma versão funcional do jogo, permitindo assim que alguns testes acontecessem.    

@@ -1,0 +1,35 @@
+Tanto os campos que totalizamos em uma matriz, quanto os campos que adicionamos a uma tabela, têm ativada a propriedade "formato condicional", para poder destacar aqueles valores nos quais queremos chamar a atenção.
+
+Em uma matriz, o formato condicional só pode ser aplicado aos campos da área de valores, enquanto que em uma tabela pode ser aplicado a todos os campos, tanto aos que totalizamos, quanto aos que agrupamos.
+
+Com esses tipos de formato condicional podemos destacar tanto a cor de preenchimento dos dados (cor de fundo) quanto a cor da fonte (cor da letra).
+
+Abrimos o arquivo do Power BI BD CURSOS e vamos inserir uma nova página de relatórios que nomearemos "F CONDICIONAL". Nela, vamos inserir uma tabela que some a duração de cada curso:
+
+omo é uma tabela, podemos aplicar o formato condicional a qualquer um dos dois campos.
+
+Vamos destacar a cor de fundo em vermelho da SOMA DA DURAÇÃO quando o valor for menor que 1000. Para isso, mostramos as opções do campo SOMA DA DURAÇÃO na área de colunas, selecionamos a opção FORMATO CONDICIONAL/COR DE FUNDO:
+
+Podemos continuar adicionando novas regras. Para isso, pressionaríamos o botão NOVA REGRA, que aparece acima da primeira regra aplicada. Se quisermos eliminar uma regra ou mudar a ordem de prioridade, utilizamos os botões à direita da regra:SOA_PBI_POR_img123.png. Finalmente, pressionamos o botão ACEITAR da janela, e o formato será aplicado:
+
+Para modificar o formato aplicado, voltaríamos a entrar na propriedade formato condicional do campo que vamos modificar e selecionaríamos o tipo de formato que modificar. Nos mostraria a janela de formato condicional que temos configurado e, sobre ela, faríamos as mudanças.
+
+Para eliminar um formato condicional de um campo, voltaríamos a mostrar as opções ou propriedades do campo do qual remover o formato, e neste caso selecionaríamos a opção REMOVER O FORMATO CONDICIONAL, seguido do tipo de regra que eliminar:
+
+
+
+Formato de barras de dados
+
+
+Este formato condicional se aplica para mostrar uma barra em cada valor, de tal modo que, quanto mais longa é a barra, maior é o dado, e quanto mais curta é a barra, menor é o dado.
+
+Neste caso, o formato condicional de barras só pode ser aplicado aos campos totalizados, ou seja, em uma tabela, ele não pode ser aplicado a um campo pelo qual agrupamos. Na matriz, pode ser aplicado ao campo que temos na área de valores.
+
+
+Formato do ícone
+
+Este formato condicional é usado para nos marcar um objetivo e, mediante ícones, ver os dados que não alcançam o tal objetivo, os dados que o atingem e os dados que o superam.
+
+ Este formato condicional se pode dar tanto ao campo pelo qual agrupamos da tabela como ao que totalizamos. Como sempre, nas matrizes, só ao campo da área de valores.
+
+

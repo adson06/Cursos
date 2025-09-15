@@ -1,0 +1,82 @@
+
+Commits são unidades fundamentais no sistema de controle de versão Git. Um commit representa um ponto no tempo em que as alterações feitas no código ou em outros arquivos de um projeto são registradas e salvas no repositório. Cada commit cria um instantâneo do projeto naquele momento, permitindo que desenvolvedores rastreiem, revertam ou revisem mudanças de forma precisa e controlada.
+Cada commit recebe um hash único (geralmente uma sequência de números e letras), o que permite identificar com precisão esse ponto específico no histórico do projeto.
+Ao criar um commit, é obrigatório adicionar uma mensagem que descreva as mudanças realizadas. Uma boa prática é manter essas mensagens claras e concisas, facilitando o entendimento do que foi modificado naquele commit.
+
+Agora veja quando usar Commits:
+
+Ao completar uma tarefa ou parte significativa do código.
+Ao corrigir um bug.
+Após pequenas alterações que precisam ser registradas.
+Durante o desenvolvimento de uma funcionalidade nova (de forma incremental e constante).
+
+git rm <arquivo>: Remove um arquivo do projeto e da área de staging.
+git mv <arquivo_antigo> <arquivo_novo>: Renomeia ou move um arquivo.
+O comando git status é uma ferramenta do Git que exibe o estado atual do seu repositório em relação ao controle de versão.
+
+O comando git log exibe o histórico dos commits no repositório. Ele lista uma sequência de commits anteriores em ordem cronológica, fornecendo uma visão geral do que aconteceu no projeto até o momento.
+
+Informações exibidas por git log:
+
+Hash do commit: Um identificador único de 40 caracteres gerado automaticamente pelo Git, representando aquele commit específico.
+Autor do commit: Mostra quem realizou o commit.
+Data do commit: Indica quando o commit foi feito.
+Mensagem do commit: Uma descrição fornecida pelo autor sobre o que foi alterado naquele commit.
+git log --oneline: Exibe o histórico em uma única linha por commit, mostrando apenas o hash curto e a mensagem.
+git log --graph: Mostra uma representação gráfica da ramificação e do histórico de commits.
+
+O comando git show exibe detalhes de um commit específico, incluindo o conteúdo das mudanças feitas. Ele é útil quando você quer examinar um único commit em profundidade, vendo tanto as mudanças nos arquivos quanto o histórico daquele commit em particular.
+
+O que o git show exibe:
+
+Metadados do commit: Assim como no git log, ele exibe o hash do commit, o autor e a data.
+Diferenças no código: Exibe o conteúdo exato que foi alterado nos arquivos, mostrando as linhas adicionadas e removidas.
+
+O comando git checkout é utilizado no Git para navegar entre diferentes branches ou para restaurar arquivos e commits em seu repositório. Ele permite que você "mude de contexto" no projeto, seja alternando para uma branch específica, revisitando o estado do projeto em um commit anterior, ou recuperando um arquivo específico de uma versão anterior.
+
+Se você fizer checkout de um commit específico (usando o hash do commit), o Git entra no estado chamado "detached HEAD". Isso significa que você não está em uma branch e qualquer alteração que fizer não será vinculada a uma branch. Se você quiser salvar as mudanças, precisará criar uma nova branch para elas. Para voltar à branch original, você pode usar:
+
+Com versões mais recentes do Git, o comando git checkout foi parcialmente substituído por comandos mais especializados, como git switch para mudar entre branches e git restore para restaurar arquivos.
+
+git switch nome-da-branch: Uma maneira mais clara e intuitiva de mudar entre branches.
+git restore nome-do-arquivo: É usado especificamente para restaurar arquivos ao estado de um commit anterior, substituindo a funcionalidade do git checkout para esse propósito.
+
+comando git revert é utilizado no Git para desfazer alterações feitas em um commit específico, criando um novo commit que reverte ou anula as mudanças daquele commit, sem alterar o histórico do projeto. Ao contrário de outros comandos como o git reset, que reescrevem o histórico, o git revert mantém todos os commits anteriores intactos, tornando-o mais seguro para uso em projetos colaborativos.
+Quando você usa git revert, o Git cria um novo commit que contém as alterações inversas do commit original. Isso significa que ele não remove o commit anterior, mas simplesmente adiciona um novo commit para "cancelar" as mudanças daquele commit.
+
+O comando git reset é utilizado no Git para desfazer mudanças, removendo commits, alterações no staging area ou modificações no diretório de trabalho, dependendo de como ele é usado. Ele altera o histórico do repositório, tornando-o ideal para corrigir erros locais, mas perigoso de usar em repositórios compartilhados, já que pode causar divergências.
+git reset --soft:
+Mantém as alterações nos arquivos e no staging area.
+Apenas desfaz o commit, permitindo que você crie um novo.
+git reset --mixed (padrão):
+Desfaz o commit e remove as alterações do staging area, mas as mantém no diretório de trabalho.
+É útil quando você deseja refazer a preparação das alterações.
+git reset --hard:
+Desfaz o commit, remove as alterações do staging area e do diretório de trabalho.
+Cuidado: esse comando pode fazer com que você perca definitivamente as alterações locais não comitadas.
+
+As tags em Git são usadas para marcar pontos específicos na história do repositório, como releases de versões. O comando git tag permite criar tags leves ou anotadas, que podem ser usadas para marcar versões importantes do projeto:
+
+git tag <nome-da-tag>: Marca um commit específico com um nome, facilitando a referência a versões importantes do projeto.
+git push origin <nome-da-tag>: Envia a tag para o repositório remoto.
+
+O comando git fetch é usado para buscar atualizações de um repositório remoto, sem fazer merge das alterações. Ele baixa os novos commits, branches e tags que foram adicionados ao repositório remoto, mas não integra essas mudanças ao seu código local até que você execute outros comandos, como git merge ou git rebase.
+
+Função principal:
+
+Baixar atualizações remotas: Ele atualiza seu repositório local com as mudanças mais recentes do repositório remoto, sem modificar sua branch de trabalho.
+
+ merge é uma operação comum ao trabalhar em projetos colaborativos. Ele combina mudanças de diferentes branches em uma única branch, integrando o trabalho de múltiplos desenvolvedores. git merge pode ser utilizado para mesclar branches de forma direta, garantindo que todas as alterações sejam integradas ao projeto.
+
+Quando usar:
+
+Quando uma funcionalidade ou correção foi desenvolvida em uma branch separada e precisa ser integrada à branch principal.
+
+O merge combina as alterações de diferentes branches, permitindo a integração do trabalho colaborativo no desenvolvimento de software.
+
+O rebase é uma alternativa ao merge, usado para reaplicar commits em uma base diferente, criando um histórico de commits mais linear. O comando git rebase é poderoso, mas deve ser usado com cuidado, especialmente em repositórios compartilhados, pois pode alterar o histórico de commits.
+
+Quando usar:
+
+Para manter um histórico mais claro e linear, especialmente em projetos colaborativos.
+O rebase reescreve o histórico de commits, criando uma linha de desenvolvimento mais linear e clara, evitando merges desnecessários e facilitando a leitura do histórico.

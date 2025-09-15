@@ -1,0 +1,61 @@
+Um cartão é um elemento visual que admite um único campo, ao qual aplicará uma função de totais e mostrará seu valor no cartão. Ou seja, em um cartão totalizamos um campo para que nos mostre seu total.
+
+O cartão é o único tipo de relatório que não emite filtros sobre nenhuma outra visualização, mas recebe filtros de qualquer outro relatório.
+
+
+A segmentação de dados é um tipo de relatório que utilizamos para filtrar todas as visualizações da página. A ela só se agrega um único campo, de tal modo que, ao selecionar um elemento do campo agregado, é emitido um filtro por esse elemento para todos os relatórios da página.
+
+Portanto, é um elemento visual que utilizamos para aplicar filtros a toda a tela.
+
+Por exemplo, vamos filtrar tanto a tabela quanto a matriz pelos cursos que foram dados na ESPANHA. Para isso, adicionamos uma segmentação do painel de visualizações:
+
+PAINEL DE FILTROS
+
+Através do painel de filtros podemos filtrar um único relatório, todos os relatórios da mesma página ou todos os relatórios de todas as páginas.
+
+Vamos abrir novamente o arquivo de Power BI BD CURSOS. Vamos para a visualização de relatório e adicionamos uma nova página de relatórios com o nome FILTROS.
+
+Vamos inserir uma tabela que, de cada curso, conte o número de cursos. Para isso, na área de colunas da tabela adicionamos duas vezes o campo CURSO. Um deixamos agrupado e o outro configuramos como contagem:
+
+Nesta área nos mostra os campos que adicionamos ao relatório que temos selecionado, e os filtros que fizermos aqui afetam apenas a esse relatório.
+
+Abaixo temos a área de FILTROS DESTA PÁGINA:
+
+SOA_PBI_POR_img102-1.png
+
+ 
+
+Os campos que adicionarmos a esta área filtrarão todos os relatórios que temos nesta página.
+
+Finalmente, temos a área FILTROS DE TODAS AS PÁGINAS:
+
+Nesta área nos mostra os campos que adicionamos ao relatório que temos selecionado, e os filtros que fizermos aqui afetam apenas a esse relatório.
+
+Abaixo temos a área de FILTROS DESTA PÁGINA:
+
+SOA_PBI_POR_img102-1.png
+
+ 
+
+Os campos que adicionarmos a esta área filtrarão todos os relatórios que temos nesta página.
+
+Finalmente, temos a área FILTROS DE TODAS AS PÁGINAS:
+
+O filtro básico é utilizado para filtrar pelos elementos de um campo. Por exemplo, na tabela que inserimos vamos mostrar apenas os cursos de WORD, EXCEL E ACCESS. Para isso, vamos ao painel de filtros com o relatório selecionado, expandimos os filtros do campo CURSO:
+
+Se quisermos apagar o filtro, no cabeçalho do grupo de filtro do campo CURSO temos o botão APAGAR FILTRO:
+
+Se quisermos contrair as opções de filtro do campo CURSO, nos colocamos no painel à direita do grupo de filtro do campo e pressionamos o botão CONTRAIR:
+
+Podem ser realizados filtros por campos que temos totalizados no relatório. Por exemplo, neste caso, sobre o campo CONTAGEM DE CURSO. Sendo quantidades numéricas, serão usados os comparadores.
+
+Vamos filtrar os cursos onde a contagem é maior que 50.
+
+Selecionamos o relatório, vamos ao painel de filtros e expandimos os filtros do campo CONTAGEM DE CURSO. No comparador selecionamos a opção É MAIOR QUE e comparamos ao valor 50. Uma vez configurado, pressionamos a opção APLICAR FILTRO:
+
+
+FILTRO TOPN
+
+Este tipo de filtro é para ressaltar os valores mais altos ou baixos de um campo.
+
+Por exemplo, em nossa tabela queremos mostrar os 3 cursos que menos vezes foram dados. Para isso, no painel de filtros do objeto visual, expandimos os filtros do campo CURSO e selecionamos o tipo de filtro TOPN:

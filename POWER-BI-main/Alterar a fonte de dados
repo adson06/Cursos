@@ -1,0 +1,15 @@
+Alterar a fonte de dados
+
+Vimos como mudar a fonte de dados de uma tabela através do painel de etapas, na etapa "fonte". Agora, se importarmos várias tabelas de um mesmo arquivo e movermos o arquivo de fonte para outra pasta, logicamente, teríamos que atualizar o caminho do arquivo de fonte para as tabelas importadas desse arquivo. Fazendo isso através da etapa "fonte", teríamos que fazer uma a uma para cada tabela.
+
+Outra opção mais rápida neste caso é mudar o caminho de todo o arquivo, dessa forma, todas as tabelas que pertencem a esse arquivo atualizarão ao mesmo tempo o caminho da nova fonte de dados.
+
+Para mudar o caminho de todo o arquivo, fazemos isso através da guia PÁGINA INICIAL, no grupo de botões FONTES DE DADOS, clicamos no botão CONFIGURAÇÕES DA FONTE DE DADOS:
+
+Com o novo caminho do arquivo selecionado, clicamos no botão ALTERAR FONTE da janela mostrada, o qual nos leva à janela com o caminho salvo do arquivo da fonte de dados:
+
+Clicando no botão PROCURAR, navegamos até o novo caminho do arquivo e, clicando no botão OK, voltamos à janela de CONFIGURAÇÕES DA FONTE DE DADOS, a qual fecharíamos.
+
+Finalmente, para replicar a todas as tabelas do arquivo o caminho modificado, teríamos que ATUALIZAR os dados a partir do Power Query, através do botão ATUALIZAR VISUALIZAÇÃO do grupo de botões CONSULTA da guia PÁGINA INICIAL:
+
+Selecionando a opção ATUALIZAR TUDO, o caminho de todas as tabelas importadas é atualizado, mas se selecionarmos a opção ATUALIZAR VISUALIZAÇÃO apenas o caminho da tabela selecionada no painel de consultas seria atualizado.

@@ -1,0 +1,74 @@
+Comandos Básicos
+ls(list) - Lista o que está dentro do diretório (pasta). Exemplo: ls (lista todos os arquivos)
+Comando ls e os diretórios listados.
+
+cd - Muda o local do diretório (pasta) atual, para isso utilize: cd <caminho> - Você pode, no Git bash ou no terminal digitar o comando cd, ir na pasta que quer, clicar, segurar e arrastar para após o comando cd que o próprio Git bash ou terminal traz o caminho completo.
+
+clear - (limpar) 
+
+Branches
+Branches são como linhas do tempo paralelas no seu projeto. Uma branch permite que você trabalhe em recursos ou correções sem afetar a versão principal (master/main), facilitando a implementação de novas funcionalidades ou correções sem interferir no código estável.
+
+git init inicia um novo repositório,
+
+git status exibe o status das alterações (modificados, novos etc), e
+
+git log mostra o histórico de commits.
+
+Repositórios
+
+Repositórios (ou "repos") são o coração do Git e GitHub. Um repositório é essencialmente um local de armazenamento para o código-fonte de um projeto. Ele contém todos os arquivos e diretórios relacionados ao projeto, bem como o histórico completo de todas as mudanças feitas ao longo do tempo.
+
+Voltar para a navegação do recurso slide
+Issues
+
+Issues são a forma principal de rastrear tarefas, bugs, melhorias e outras tarefas relacionadas a um projeto em GitHub. Elas funcionam como um sistema de gerenciamento de tarefas e ajudam os colaboradores a discutir e resolver problemas.
+
+Voltar para a navegação do recurso slide
+Pull Requests (PRs)
+
+Pull Requests (PRs) são propostas de mudanças que um colaborador deseja incorporar ao repositório principal. Eles são uma ferramenta para o fluxo de trabalho colaborativo no GitHub.
+
+Para trabalhar em um projeto existente no GitHub, é necessário cloná-lo. Usando o comando git clone URL-do-repositório, o Git copia todo o repositório remoto para o seu computador. Esse processo permite que você trabalhe no código localmente e, posteriormente, sincronize as mudanças com o repositório remoto.
+Depois de fazer alterações no repositório local, é possível enviar (push) essas mudanças para o GitHub. Isso é feito com git push origin nome-da-branch. Esse comando atualiza o repositório remoto com as alterações feitas na branch especificada.
+
+Para baixar (pull) as alterações mais recentes de um repositório remoto, use o comando git pull origin nome-da-branch. Esse comando sincroniza seu repositório local com o remoto, garantindo que você esteja sempre trabalhando na versão mais atual do código.
+Manter o repositório local sincronizado com o remoto é importante, especialmente quando múltiplos desenvolvedores estão colaborando. O uso combinado dos comandos git pull e git push garante que as mudanças sejam integradas de forma eficaz, minimizando conflitos e mantendo o fluxo de trabalho organizado.
+
+
+
+Por padrão, o Git inicia com a branch main. Para criar uma nova branch, use o comando git branch nome-da-branch, e para mudar para ela, git checkout nome-da-branch (este comando também serve para alternar entre branches).
+
+iniciar uma área de trabalho (veja também: tutorial de ajuda do git)
+
+clone Clonar um repositório em um novo diretório
+
+init Criar um repositório Git vazio ou reinicializar um existente.
+
+add Adicionar conteúdo do arquivo ao índice
+
+mv Mover ou renomear um arquivo, diretório ou link simbólico
+
+restore Restaurar arquivos da árvore de trabalho
+
+rm Remover arquivos da árvore de trabalho e do índice
+
+examinar o histórico e o estado (veja também: revisões da ajuda do git).
+
+bisect Usar busca binária para encontrar o commit que introduziu um bug
+
+diff Mostrar alterações entre commits, commit e árvore de trabalho, etc
+
+grep Imprimir linhas que correspondem a um padrão
+
+log Mostrar logs de commit
+
+show Mostrar vários tipos de objetos
+
+status Mostrar o status da árvore de trabalho aumentar, marcar e ajustar seu histórico comum
+branch Listar, criar ou excluir branches
+commit Registrar alterações no repositório
+merge Unir dois ou mais históricos de desenvolvimento
+rebase Reaplicar commits em cima de outra base dica
+reset Redefine o HEAD atual para o estado especificado
+switch Trocar

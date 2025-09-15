@@ -1,0 +1,48 @@
+ O Git, por meio de branches e merges, oferece um mecanismo para organizar e integrar essas alterações de forma eficiente e segura.
+
+Branching é o processo de criar uma cópia separada do código a partir da linha principal de desenvolvimento (chamada de "branch"). Essa cópia permite que você trabalhe em novas funcionalidades ou correções de bugs de forma isolada, sem interferir no código principal
+
+Merging é o processo de combinar as alterações feitas em uma branch de volta à linha principal ou outra branch. Isso integra as mudanças desenvolvidas separadame
+nte, garantindo que as atualizações sejam incluídas no código principal ou em outra linha de desenvolvimento.
+
+Branch
+é uma linha de desenvolvimento que permite trabalhar em novas funcionalidades, correções de bugs ou experimentos, de forma isolada, como uma linha do tempo alternativa para o seu projeto, sem afetar o código base.
+
+A branch principal é frequentemente chamada de main ou master, representa a versão estável do seu projeto, mas desenvolvedores costumam criar branches para adicionar novas funcionalidades ou corrigir bugs, sem comprometer o projeto principal, mesmo que múltiplos desenvolvedores trabalhem simultaneamente em diferentes partes do projeto.
+
+As operações de branching e merging são usadas no controle de versão.
+
+Para criar uma nova branch, utilize git branch nome-da-branch.
+Para alternar entre branches, o comando git checkout nome-da-branch é utilizado.
+Uma vez que as alterações na branch foram concluídas e testadas, elas podem ser mescladas de volta na branch principal com git merge nome-da-branch.
+
+Para excluir uma Branch, use git branch -d <nome-do-branch>.
+
+Fork é um conceito comum em plataformas de controle de versão, como o GitHub, que permite a um usuário copiar um repositório de outro usuário para sua própria conta. Isso cria uma cópia independente do repositório original, permitindo que o usuário modifique e trabalhe no código sem afetar o projeto original.
+O fork é utilizado quando você deseja experimentar ou desenvolver novas funcionalidades em um projeto sem interferir no repositório original. Você pode fazer todas as alterações e testar as funcionalidades em seu próprio repositório.
+Ao fazer um fork de um projeto de código aberto, você pode adicionar novas funcionalidades, corrigir erros ou melhorar o código. Depois de realizar as alterações, você pode enviar um pull request para sugerir que as mudanças sejam integradas ao projeto original.
+Se você quer adaptar um projeto existente para atender às suas necessidades específicas sem que as mudanças sejam incorporadas ao repositório original, o fork é uma maneira de manter sua própria versão personalizada do código
+
+
+Entre no GitHub com sua conta.
+Navegue até o repositório que você deseja fazer o fork. Isso pode ser feito buscando diretamente pelo nome do repositório ou acessando-o através de um link.
+Passo 2: Fazer o Fork
+
+No canto superior direito da página do repositório, há um botão chamado Fork. Clique nesse botão.
+Você será redirecionado para uma nova página perguntando onde deseja criar o fork (caso tenha mais de uma organização ou conta associada). Selecione sua conta.
+O GitHub começará a copiar o repositório original para sua conta, criando uma cópia que é completamente independente do original.
+Passo 3: Clonar o Repositório (Opcional)
+
+Se você quiser trabalhar localmente no repositório que fez o fork:
+
+No seu repositório forked (que agora estará disponível em sua conta), clique no botão Code.
+Escolha a opção de clonar usando HTTPS, SSH, ou GitHub CLI e copie o link fornecido.
+Abra um terminal em seu computador e execute o comando a seguir para clonar o repositório localmente:
+Agora, você pode fazer todas as modificações no código localmente ou diretamente no GitHub. Quando tiver feito alterações e desejar integrá-las ao repositório original (se for um projeto colaborativo), você pode criar um pull request para sugerir essas mudanças ao autor original do repositório.
+
+Forking é feito diretamente no GitHub ou outra plataforma e resulta na criação de um repositório independente na sua conta.
+
+Cloning refere-se à criação de uma cópia local do repositório (original ou forked) para trabalhar offline. Você pode clonar tanto o repositório original quanto um repositório forked.
+Depois de fazer alterações significativas em um fork, você pode abrir um pull request (PR) no GitHub. Como visto no módulo 1 da trilha, um PR é uma solicitação para que as mudanças feitas em uma branch sejam mescladas em outra, geralmente na branch principal do repositório original. Essa prática facilita a revisão e a discussão das mudanças antes que elas sejam integradas ao projeto.
+
+Code review é o processo de revisar o código escrito por outra pessoa para garantir a qualidade, legibilidade e funcionalidade do código antes que ele seja integrado ao repositório principal. Durante um code review, outros desenvolvedores examinam o código proposto e fornecem feedback sobre melhorias, bugs ou problemas que possam surgir.
